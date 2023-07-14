@@ -1,0 +1,72 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background-image: url(./background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background: rgb(219, 216, 250);
+    width: 800px;
+    margin: 6vh auto 0 auto;
+    padding: 2rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+}
+.header{
+    border-bottom: 4px solid black;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.form-control input{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+    width: 100%;
+}
+.form-control label{
+    font-weight: bold;
+    color: black;
+}
+#form #btn{
+    margin-top: 1rem;
+    padding: 8px;
+    width: 100%;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+    border: 2px solid black;
+}
+.form-control .error{
+    color: red;
+    font-size: 14px;
+    margin: 2px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.form-control.success input{
+    border-color: green;
+}
+
+.form-control.error input{
+    border-color: red;
+}
